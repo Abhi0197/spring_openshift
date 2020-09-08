@@ -18,7 +18,7 @@ public class DemoWebAppApplication {
 	@GetMapping("/{input}")
 	public String welcome1(@PathVariable String input)
 	{
-		return "Hello"+input;
+		return "Hello "+input;
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoWebAppApplication.class, args);
